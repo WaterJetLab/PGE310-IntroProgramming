@@ -11,7 +11,7 @@
 **Office Hours:** By appointment.  **Note:**  Due to the "reverse classroom" nature of this course, we will spend the majority of in-class time working assignments.  *This is your opportunity to ask questions.*  If you need additional help outside of that, feel free to send me an email I'll be happy to meet with you provided that your in-class attendance and participation are acceptable. 
 
 
-**Course Website:** [https://utexas.instructure.com/courses/1266928](https://utexas.instructure.com/courses/1266928) 
+**Course Website:** [https://utexas.instructure.com/courses/1298934/assignments](https://utexas.instructure.com/courses/1298934) 
 
 **Course Description**: Introduction to mathematical equations typically encountered in petroleum and geosystems engineering; methods to solve equations graphically, analytically, and with numerical methods; applications of computers to problem solving. 
 
