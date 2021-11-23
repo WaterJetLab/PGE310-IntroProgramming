@@ -41,53 +41,53 @@ We will spend a few weeks learning some basic Python syntax and computer program
 As engineers we often encounter problems too large or too difficult to solve in a conventional manner;  therefore, we resort to using the computer to do the hard work for us.  This is a first course in numerical methods, intended to introduce the student to the algorithms and techniques an engineer might employ in solving these difficult problems.  Most of the algorithms discussed in this class are typically available nowadays in packaged libraries, whether within engineering tools such as MATLAB, Mathematica,  or Python modules; or packaged solvers for lower-level languages such as BLAS, LAPAK, ODEPAK, etc. available for C/C++ and/or FORTRAN.  In the typical course of engineering problem solving we will build our code with these highly robust packages and  not try to "reinvent the wheel"; it is, however, important to have an underlying understanding of some of the fundamental algorithms employed in these packages.  This allows us to choose solvers appropriate to the problem based on our desires for accuracy, stability, speed, etc.  This course is designed to provide the student with this underlying understanding of basic algorithms and a degree of proficiency in programming them.  Below is list of subjects that we will attempt to cover this semester.  As the needs of the class are better understood, I may choose to focus on some areas more than others.
 
 * Python Programming
-       * Loops
-       * Conditional statements
-       * Functions
-       * Object-oriented programming
-       * Array computing
-       * 2 and 3d visualizations
+  + Loops
+  + Conditional statements
+  + Functions
+  + Object-oriented programming
+  + Array computing
+  + 2 and 3d visualizations
 * Linear systems
-       * Gaussian elimination
-       * Pivoting
-       * Gauss-Jordan elimination
-       * LU factorization
-       * Inverses
-       * Determinants
-       * Iterative methods
-       * Singular-Value decomposition
+  + Gaussian elimination
+  + Pivoting
+  + Gauss-Jordan elimination
+  + LU factorization
+  + Inverses
+  + Determinants
+  + Iterative methods
+  + Singular-Value decomposition
 * Eigenvalue problems
-       * Power method
-       * Inverse power method
-       * Householder method
-       * QR decomposition and algorithm
+  + Power method
+  + Inverse power method
+  + Householder method
+  + QR decomposition and algorithm
 * Nonlinear equations of one variable
-       * Bisection method
-       * Newton-Raphson method
-       * Secant method
-       * Hybrid methods
+  + Bisection method
+  + Newton-Raphson method
+  + Secant method
+  + Hybrid methods
 * Polynomials
-       * Synthetic division
-       * Müller's method
-       * Deflation
+  + Synthetic division
+  + Müller's method
+  + Deflation
 * Nonlinear equations of more that one variable
-       * Newton's method
-       * Broyden's method
-       * Steepest decent technique
+  + Newton's method
+  + Broyden's method
+  + Steepest decent technique
 * Numerical differentiation and integration
-       * Newton-Gregory polynomials
-       * Newton-Cotes formulas for quadrature
-       * Gauss quadrature
+  + Newton-Gregory polynomials
+  + Newton-Cotes formulas for quadrature
+  + Gauss quadrature
 * Ordinary differential equations
-       * Euler's explicit
-       * Euler's implicit
-       * Runge-Kutta methods
-       * Multistep methods
+  + Euler's explicit
+  + Euler's implicit
+  + Runge-Kutta methods
+  + Multistep methods
 * Boundary value problems
-       * Shooting methods
-       * Finite-difference method
-       * Finite-element method
-       * Partial differential equations
+  + Shooting methods
+  + Finite-difference method
+  + Finite-element method
+  + Partial differential equations
 
 I believe the only way to become proficient in numerical methods is to write and understand code; therefore, a significant portion of the grade allocation in the class will be from homework/small projects.  It is acceptable to talk to each other about your assignments, but every student will be expected to do their own work.  The grade allocation will be as follows:
 
