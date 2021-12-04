@@ -5,7 +5,7 @@
 1、网址：https://www.anaconda.com/products/individual  
 2、进入网站，页面如下  
 <div  align="center">    
-<img src="imgs/2021-12-04-13-38-39.png" width = "400" alt="图片名称" align=center />
+<img src="imgs/2021-12-04-13-38-39.png" width = "600" alt="图片名称" align=center />
 </div>
 
 3、下载Anaconde安装包。Windows系统用户直接点击图中“Download”即可，MacOS系统用户请点击“苹果”符号，下载合适版本号的安装包。如下图所示。  
