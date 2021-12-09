@@ -1,6 +1,6 @@
-# Anaconde安装教程
+# Anaconda安装教程
 
-## 第一步，下载Anaconde安装包
+## 第一步，下载Anaconda安装包
 
 1、网址：https://www.anaconda.com/products/individual  
 
