@@ -6,7 +6,7 @@
 **Phone:** 512-471-6972  
 **Email:** [john.foster@utexas.edu](mailto:john.foster@.utexas.edu)  
 
-**Class Location:** Building#3 408 
+**Class Location:** Building#3 408  
 **Class Time:**  19:00 PM - 21:00 PM  
 **Office Hours:** By appointment.  **Note:**  Due to the "reverse classroom" nature of this course, we will spend the majority of in-class time working assignments.  *This is your opportunity to ask questions.*  If you need additional help outside of that, feel free to send me an email I'll be happy to meet with you provided that your in-class attendance and participation are acceptable. 
 
