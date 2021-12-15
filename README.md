@@ -1,97 +1,73 @@
-## PGE 310 - Formation and Solution of Geosystems Engineering Problems
+## JET 101 - **石油工程数值分析及数据可视化方法**
 
+**老师:** 王斌, Ph.D.  
+**办公室:** 研修1015  
+**邮箱:** binwang.0213@gmail.com
 
-**Instructor:** John T. Foster, Ph.D.  
-**Office:** PGE 3.108  
-**Phone:** 512-471-6972  
-**Email:** [john.foster@utexas.edu](mailto:john.foster@.utexas.edu)  
+**上课地点:** 三教408 
+**上课时间:**  每周四 19:00 PM - 21:00 PM  
 
-**Class Location:** Building#3 408  
-**Class Time:**  19:00 PM - 21:00 PM  
-**Office Hours:** By appointment.  **Note:**  Due to the "reverse classroom" nature of this course, we will spend the majority of in-class time working assignments.  *This is your opportunity to ask questions.*  If you need additional help outside of that, feel free to send me an email I'll be happy to meet with you provided that your in-class attendance and participation are acceptable. 
+**课程网站（包含大纲，课件及作业）:** https://github.com/WaterJetLab/PGE310-IntroProgramming
 
+**课程简介**: 介绍常用石油工程数学模型，了解和编程使用常用数值分析算法和技术求解这些模型，熟悉常用数据可视化方法对求解结果进行分析。
 
-**Course Website:** [https://utexas.instructure.com/courses/1298934/assignments](https://utexas.instructure.com/courses/1298934) 
+**前置课程:** 高等数学，数值分析，线性代数，大学物理
 
-**Course Description**: Introduction to mathematical equations typically encountered in petroleum and geosystems engineering; methods to solve equations graphically, analytically, and with numerical methods; applications of computers to problem solving. 
+**课件和参考书:** 
 
-**Prerequisites:** Physics 303K, Physics 103M, and Mathematics 427J
-
-**Book:** 
-
-I will provide you with a comprehensive set of notes and will ensure that you will be adequately prepared for each homework assignment.  Because of this, and the wealth of information available on the internet, I have chosen to not require you to purchase a text for this course.  I am preparing a companion online book for this class available below:
+由于大部分同学都有高等数学和数值分析的基础，除了绪论课，我们将会使用UT Austin的John T. Foster老师准备的简化版在线课件：
 
 1. [Numerical Methods and Programming](https://johnfoster.pge.utexas.edu/numerical-methods-book)
+1. [https://utexas.instructure.com/courses/1298934/assignments](https://utexas.instructure.com/courses/1298934) 
 
-**Suggested References: (not required to purchase)**
+**其他参考书:**
 
 1. J. Kiusalaas, Numerical methods in engineering with Python 3, Cambridge University Press, Cambridge; New York, 2013.
 
 1. M.A. Wood, Python and Matplotlib essentials for scientists and engineers, Morgan et Claypool; IOP Publ., San Rafael, Calif.; Bristol, 2015.
 
-**Online Python tutorials:**
+**在线Python 教程:**
 
-We will spend a few weeks learning some basic Python syntax and computer programming flow control conventions as part of this class; however, I strongly encourage you to utilize one of the online courses designed to teach Python.  Two I recommend are:
+我们将会在两周的时间里快速的的复习Python编程的基础知识; 但是，我强烈建议你同步学习下面的中文在线Python课程来补充课堂上没有涉及到的基础知识，免费在线课程链接:
 
 * 慕课Python教程入门：https://www.imooc.com/learn/1261
 * 慕课Python教程进阶：https://www.imooc.com/learn/1264
 
-**Course Introduction and Outline:**
+**课程简介和内容:**
 
-As engineers we often encounter problems too large or too difficult to solve in a conventional manner;  therefore, we resort to using the computer to do the hard work for us.  This is a first course in numerical methods, intended to introduce the student to the algorithms and techniques an engineer might employ in solving these difficult problems.  Most of the algorithms discussed in this class are typically available nowadays in packaged libraries, whether within engineering tools such as MATLAB, Mathematica,  or Python modules; or packaged solvers for lower-level languages such as BLAS, LAPAK, ODEPAK, etc. available for C/C++ and/or FORTRAN.  In the typical course of engineering problem solving we will build our code with these highly robust packages and  not try to "reinvent the wheel"; it is, however, important to have an underlying understanding of some of the fundamental algorithms employed in these packages.  This allows us to choose solvers appropriate to the problem based on our desires for accuracy, stability, speed, etc.  This course is designed to provide the student with this underlying understanding of basic algorithms and a degree of proficiency in programming them.  Below is list of subjects that we will attempt to cover this semester.  As the needs of the class are better understood, I may choose to focus on some areas more than others.
+当今数字化生活的高速发展，作为一名工程师我们很多时候都不得不借助计算机来高效的解决工作中的一些问题。研究生的一门必修数学课程就是《数值分析》，这门课程的初衷是帮助学生来了解常用的一些常用的数学算法和求解方法。大部分算法都已经集成在常用的软件包里，比如Matlab，Mathematica,  和 Scipy。通常我们都会直接使用这些成熟且可靠的软件包，去解决一些更复杂的数学或工程问题。但是作为一名研究生，了解这些常用数学算法的基础原理是非常重要的，这将帮助我们未来针对不同的问题去选择最合适的求解器。同时，通过编程实现这些算法，可以快速的提升编程能力。下面是这门课程的主要内容，我们将会根据时间的安排选择部分内容来进行学习：
 
-* 1.Python Programming
-  + Loops
-  + Conditional statements
-  + Functions
-  + Object-oriented programming
-  + Array computing
-  + 2 and 3d visualizations
-* 2.Linear systems
-  + Gaussian elimination
-  + Pivoting
-  + Gauss-Jordan elimination
-  + LU factorization
-  + Inverses
-  + Determinants
-  + Iterative methods
-  + Singular-Value decomposition
-* 3.Eigenvalue problems
-  + Power method
-  + Inverse power method
-  + Householder method
-  + QR decomposition and algorithm
-* 4.Nonlinear equations of one variable
-  + Bisection method
-  + Newton-Raphson method
-  + Secant method
-  + Hybrid methods
-* 5.Polynomials
-  + Synthetic division
-  + Müller's method
-  + Deflation
-* 6.Nonlinear equations of more that one variable
-  + Newton's method
-  + Broyden's method
-  + Steepest decent technique
-* 7.Numerical differentiation and integration
-  + Newton-Gregory polynomials
-  + Newton-Cotes formulas for quadrature
-  + Gauss quadrature
-* 8.Ordinary differential equations
-  + Euler's explicit
-  + Euler's implicit
-  + Runge-Kutta methods
-  + Multistep methods
-* 9.Boundary value problems
-  + Shooting methods
-  + Finite-difference method
-  + Finite-element method
-  + Partial differential equations
+* 1.Python 编程基础
+  + 循环
+  + 条件判断
+  + 函数
+  + 面对对象编程（类）
+  + 矩阵运算
+  + 数据二维和三维可视化
+* 2.数值微分和积分
+    + 数值微分
+    + Trapezoidal, Simpson's积分
+    + 高斯积分
+* 3.非线性方程解法
+      + 二分法
+      + 固定点迭代法
+      + 牛顿法
+* 4.线性方程组
+  + 高斯消元
+  + Gauss-Jordan 消元
+  + LU 分解
+  + 矩阵求逆
+  + 矩阵行列式
+  + 迭代求解方法
+* 5.常微分方程解法（初值问题）
+  + 欧拉显式法
+  + 欧拉 隐式法
+  + Runge-Kutta方法
+  + Multistep方法
 
-I believe the only way to become proficient in numerical methods is to write and understand code; therefore, a significant portion of the grade allocation in the class will be from homework/small projects.  It is acceptable to talk to each other about your assignments, but every student will be expected to do their own work.  The grade allocation will be as follows:
+我相信理解和熟练数值方法的唯一途径是理解和写代码，所以课程的评分标准大部分是基于作业和项目。同学们可以相互借鉴和讨论，但是每一个学生都应该独立完成他的作业。课程评分标准如下：
 
-**Grading**
+**课程评分**
 
  * 20% Lecture quizes
 
@@ -99,10 +75,9 @@ I believe the only way to become proficient in numerical methods is to write and
 
  * 40% Projects
 
+**课程打分**
 
-**Grade Assignment**
-
-|Range|Grade|
+|分数范围|分数|
 |-|-|
 |>92| A  |
 |90-92| A-  |
@@ -113,7 +88,6 @@ I believe the only way to become proficient in numerical methods is to write and
 |72-78| C  |
 |70-72| C-  |
 |60-70| D  |
-|< 60| F  |  
+|< 60| F  |
 
-
-**Disability Statement:** The University of Austin provides upon request appropriate academic accommodations for qualified students with disabilities. For more information, contact the Office of the Dean of Students at 512-471-6259 or see <a href="https://www.utexas.edu/diversity/ddce/ssd/" target="_blank">https://www.utexas.edu/diversity/ddce/ssd/</a> for more information.
+**版权声明:** 此课程材料基于美国UT Austin大学 John T. Foster, Ph.D教授的PGE 310课程，感谢John公布所有的教学素材
