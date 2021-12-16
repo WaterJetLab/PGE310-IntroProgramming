@@ -5,6 +5,9 @@
 **邮箱:** binwang.0213@gmail.com
 
 **上课地点:** 三教408 
+
+**腾讯会议:** 695 333 5637 
+
 **上课时间:**  每周四 19:00 PM - 21:00 PM  
 
 **课程网站（包含大纲，课件及作业）:** https://github.com/WaterJetLab/PGE310-IntroProgramming
