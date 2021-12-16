@@ -30,6 +30,7 @@
 
 我们将会在两周的时间里快速的的复习Python编程的基础知识; 但是，我强烈建议你同步学习下面的中文在线Python课程来补充课堂上没有涉及到的基础知识，免费在线课程链接:
 
+* UT 原始课程：https://utexas.instructure.com/courses/1298934/assignments
 * 慕课Python教程入门：https://www.imooc.com/learn/1261
 * 慕课Python教程进阶：https://www.imooc.com/learn/1264
 
