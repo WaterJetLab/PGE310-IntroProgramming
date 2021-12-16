@@ -73,11 +73,10 @@
 
 **课程评分**
 
- * 20% Lecture quizes
-
- * 40% Daily/Weekly assignments
-
- * 40% Projects
+ * 10% 课堂小测验5次
+ * 40% 课后作业5次
+ * 20% 期中大作业
+ * 30% 期末大作业
 
 **课程打分**
 
