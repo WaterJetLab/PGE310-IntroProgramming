@@ -98,4 +98,8 @@
 |60-70| D  |
 |< 60| F  |
 
+**问题解决**
+1. Failed to start the Kernel (VS Code)
+方法：https://blog.csdn.net/qq_43613688/article/details/121474308
+
 **版权声明:** 此课程材料基于美国UT Austin大学 John T. Foster, Ph.D教授的PGE 310课程，感谢John公布所有的教学素材
