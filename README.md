@@ -14,7 +14,6 @@
 **作业提交邮箱:**  1503327352@qq.com  
 **作业提交格式:**  Jupyter Notebook 文件(比如, assignment1_BinWang.ipynb)  
 
-**课程网站（包含大纲，课件及作业）:** https://github.com/WaterJetLab/PGE310-IntroProgramming
 
 **课程简介**: 介绍常用石油工程数学模型，了解和编程使用常用数值分析算法和技术求解这些模型，熟悉常用数据可视化方法对求解结果进行分析。
 
