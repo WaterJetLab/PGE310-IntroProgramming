@@ -39,8 +39,7 @@
 * UT 原始课程：https://utexas.instructure.com/courses/1298934/assignments
 * 慕课Python教程入门：https://www.imooc.com/learn/1261
 * 慕课Python教程进阶：https://www.imooc.com/learn/1264
-* 慕课Numpy入门：https://www.imooc.com/learn/1237
-* 慕课数据分析入门：https://www.imooc.com/learn/843
+* B站数据分析(Numpy,Matplotlib): https://www.bilibili.com/video/BV1hx411d7jb?p=14
 
 **课程简介和内容:**
 
