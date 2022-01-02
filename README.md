@@ -19,6 +19,12 @@
 
 **前置课程:** 高等数学，数值分析，线性代数，大学物理
 
+**课程主页**：https://github.com/WaterJetLab/PGE310-IntroProgramming
+
+​                   https://gitee.com/water-jet-lab/PGE310-IntroProgramming
+
+**Python编程环境安装**: [教程1](https://github.com/WaterJetLab/PGE310-IntroProgramming/tree/main/EnvironmentSetup)， [教程2](https://gitee.com/water-jet-lab/PGE310-IntroProgramming/tree/main/EnvironmentSetup)
+
 **课件和参考书:** 
 
 由于大部分同学都有高等数学和数值分析的基础，除了绪论课，我们将会使用UT Austin的John T. Foster老师准备的简化版在线课件：
@@ -29,8 +35,21 @@
 **其他参考书:**
 
 1. J. Kiusalaas, Numerical methods in engineering with Python 3, Cambridge University Press, Cambridge; New York, 2013.
-
 1. M.A. Wood, Python and Matplotlib essentials for scientists and engineers, Morgan et Claypool; IOP Publ., San Rafael, Calif.; Bristol, 2015.
+
+
+
+**课程材料目录**
+
+本课程仓库包含以下内容：
+
+| 目录名称         | 说明                                                  |
+| ---------------- | ----------------------------------------------------- |
+| EnvironmentSetup | Python编程环境安装教程：Anaconda + VsCode             |
+| HomeWorks        | 作业                                                  |
+| Notes            | 数值分析及编程参考书， John T. Foster原版Notebook课件 |
+| Projects         | 大作业                                                |
+| Slides           | 课件                                                  |
 
 **在线Python 教程:**
 
@@ -89,7 +108,7 @@
 |-|-|-|-|-|-|
 | 2021/12/16 | 绪论, Python基础（上） | 1.1-1.4 | [课程视频下载（密码 : p7xoyw)](https://www.jianguoyun.com/p/DVKEUyYQ8_KKChi78qIE) | 暂无 | HW2-6 |
 | 2021/12/23 |Python基础（下）| 1.5-1.7 | [课程视频下载（密码 : wwiudb)](https://www.jianguoyun.com/p/De4bsKEQ8_KKChi_8qIE) | 矩阵相乘 | HW7,8,9 |
-|2021/12/30|面对对象编程，数据处理与可视化| 3.1-3.3 |                                                              | 颗粒对象 |   |
+|2021/12/30|面对对象编程，数据处理与可视化| 3.1-3.3 | [课程视频下载（密码 : 6bszqz)](https://www.jianguoyun.com/p/DbWntYcQ8_KKChjS3KQE) | 颗粒对象 |   |
 | 2022/1/6 | 数值积分，非线性方程解法 |          |                                                              |            |          |
 | 2022/1/13 | 数值线性代数 | | | | |
 | 2022/1/20 | 期末大作业Presentation | | | | |

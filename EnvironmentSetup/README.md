@@ -1,6 +1,6 @@
-# Anaconda安装教程
+# Anaconde安装教程
 
-## 第一步，下载Anaconda安装包
+## 第一步，下载Anaconde安装包
 
 1、网址：https://www.anaconda.com/products/individual  
 
@@ -111,3 +111,106 @@
 </div>  
 
 7、安装完成
+
+# 在VS Code下搭建Anaconde环境时，可能遇到的两个问题及解决方法
+
+并非所有人都会遇到以下问题，请您先进行Anaconde环境检测。若检测过程中程序没有报错，您可以无视之后的内容。
+
+## 环境检测
+
+1、打开VS code，点击“打开文件夹”。如下图所示
+<div  align="center">    
+<img src="imgs/1230微信图片编辑_20211230231410.jpg" width = "800" alt="图片名称" align=center />
+</div>  
+
+2、在任意路径新建一个文件夹，选中您新建的文件夹，点击“选择文件夹”，如下图所示
+<div  align="center">    
+<img src="imgs/1230微信图片编辑_20211230232228.jpg" width = "800" alt="图片名称" align=center />
+</div>  
+
+3、在如图位置，点击“新建文件”图标，新建一个文件，文件名为“XXX.ipynb”，其中XXX尽量是英文或者数字
+<div  align="center">    
+<img src="imgs/1230微信图片编辑_20211230232722.jpg" width = "800" alt="图片名称" align=center />
+</div>  
+
+4、点击右上角的“选择内核”，然后在屏幕顶部跳出的下拉菜单中选择“base Python 3.9.7”
+<div  align="center">    
+<img src="imgs/1230微信图片编辑_20211230233322.jpg" width = "800" alt="图片名称" align=center />
+</div>  
+<div  align="center">    
+<img src="imgs/1230微信图片编辑_20211230233443.jpg" width = "800" alt="图片名称" align=center />
+</div>  
+
+5、如下图，输入代码  
+`import numpy as np`
+<div  align="center">    
+<img src="imgs/1230微信图片编辑_20211230233800.jpg" width = "800" alt="图片名称" align=center />
+</div>  
+
+6、点击代码框左侧的小三角图标，运行程序。如果在代码框的左下角跳出绿色对钩，则说明Anaconde的环境已经搭建完成，可以正常使用，完成安装
+<div  align="center">    
+<img src="imgs/1230微信图片编辑_20211230234309.jpg" width = "800" alt="图片名称" align=center />
+</div>  
+
+## 问题一：错误代码“Bad file descriptor”
+创建.ipynb文件不久之后，或者运行代码之后可能出现如下报错
+<div  align="center">    
+<img src="imgs/1微信图片编辑_20211231001321.jpg" width = "600" alt="图片名称" align=center />
+</div>  
+问题原因：安装jupyter notebook时，会自动安装ipykernel, 如果pyzmq的版本过高，会导致报错  
+
+解决方法：进入Anaconda prompt环境，输入以下命令，更换版本  
+ 1、鼠标右键点击“Windows”图标，点击“运行”，输入“cmd”，如下图所示
+<div  align="center">    
+<img src="imgs/1230屏幕截图 2021-12-31 001918.png" width = "300" alt="图片名称" align=center />
+</div>  
+2、输入代码
+```
+pip uninstall pyzmq
+
+ 
+pip install pyzmq==19.0.2
+```
+
+## 问题二：错误代码“ModuleNotFoundError”
+问题原因：Anaconde环境变量未添加  
+解决方法：  
+ 1、控制面板 → 系统与安全 → 系统
+ 2、在系统对话框进行如图所示的操作。其中第四步要添加3个路径，这个路径根据自己的情况而定，不需要和图中完全一致
+<div  align="center">    
+<img src="imgs/1230微信图片编辑_20211231005949.jpg" width = "800" alt="图片名称" align=center />
+</div>  
+
+3、找到Anaconda里面的python可执行程序，python.exe的路径。这个东西一般就在Anaconde的根目录里面
+<div  align="center">    
+<img src="imgs/1230微信图片编辑_20211231011331.jpg" width = "800" alt="图片名称" align=center />
+</div>  
+
+4、进入VS code的设置页面，如下图所示
+<div  align="center">    
+<img src="imgs/1230微信图片编辑_20211231010820.jpg" width = "800" alt="图片名称" align=center />
+</div>  
+
+5、在设置页面的顶部有一个搜索栏，在里面输入“python.pythonPath”，然后将Anaconda里面的python可执行程序添加到路径
+<div  align="center">    
+<img src="imgs/1230微信图片编辑_20211231013130.jpg" width = "800" alt="图片名称" align=center />
+</div>  
+
+6、重启VS code
+
+7、输入如下代码，如果程序没有报错则说明问题解决
+```python
+import numpy as np
+
+A = np.array([[1, 2], [3, 4]])
+B = np.array([[5, 6], [7, 8]])
+
+a = A.shape[0]
+b = B.shape[1]
+C = np.dot(A, B)
+
+C
+```
+<div  align="center">    
+<img src="imgs/微信图片_20211231014555.png" width = "800" alt="图片名称" align=center />
+</div>  
