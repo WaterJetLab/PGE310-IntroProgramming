@@ -108,9 +108,9 @@
 |-|-|-|-|-|-|
 | 2021/12/16 | 绪论, Python基础（上） | 1.1-1.4 | [课程视频下载（密码 : p7xoyw)](https://www.jianguoyun.com/p/DVKEUyYQ8_KKChi78qIE) | 暂无 | HW2-6 |
 | 2021/12/23 |Python基础（下）| 1.5-1.6 | [课程视频下载（密码 : wwiudb)](https://www.jianguoyun.com/p/De4bsKEQ8_KKChi_8qIE) | 矩阵相乘 | HW7,8,9 |
-|2021/12/30|面对对象编程，数据处理与可视化| 1.7,  [数据分析网课](https://www.bilibili.com/video/BV1hx411d7jb?p=14) | [课程视频下载（密码 : 6bszqz)](https://www.jianguoyun.com/p/DbWntYcQ8_KKChjS3KQE) | 颗粒对象 | HW10,11 |
-| 2022/1/6 | 非线性方程解法，期中大作业     |          |                                                              |            |          |
-| 2022/1/13 | 数值线性代数 | | | | |
+|2021/12/30|面对对象编程，数据处理与可视化| 1.7,  [数据分析网课](https://www.bilibili.com/video/BV1hx411d7jb?p=14) | [课程视频下载（密码 : 6bszqz)](https://www.jianguoyun.com/p/DbWntYcQ8_KKChjS3KQE) | 颗粒对象 | HW10 |
+| 2022/1/6 | 非线性方程解法，期中大作业     | 3.1, 3.3 | 忘了录制 | 二分法 | HW11 |
+| 2022/1/13 | 数值线性代数 | 4.1, 4.3 | | | |
 | 2022/1/20 | 期末大作业Presentation | | | | |
 
 **问题解决**
